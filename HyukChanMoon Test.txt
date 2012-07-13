@@ -1,4 +1,0 @@
-Name: Hyuk Chan Moon
-ID:6836992
-
-this is my test for using GitHub Repository
