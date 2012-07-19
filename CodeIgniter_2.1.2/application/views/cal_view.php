@@ -14,7 +14,7 @@
 					$('.calendar .day').click(function()
 						{
 							day_num = $(this).find('.day_num').html();
-							day_data = prompt('Enter Stuff');
+							day_data = prompt('Enter Event Name', $(this).find('.content').html());
 							if(day_data != null)
 								{
 									$.ajax({

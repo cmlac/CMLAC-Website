@@ -3,7 +3,8 @@
 	{
 		function display($year  = null, $month = null)	
 		{
-			if(!$year)
+			if(!$year)//if year and month is null, use todays year and month, 
+						//otherwise error when trying to pass NULL
 			{
 				$year = date('Y');
 			}

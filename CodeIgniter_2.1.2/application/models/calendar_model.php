@@ -74,18 +74,18 @@
 				{
 					$this->db->where('event_date', $date)->update('event_calendar', array(
 						'event_date' => $date,
-						'event_name' => $name,
-						'event_description' => $descript,
-						'event_location' => $local
+						'event_name' => $name//,
+						//'event_description' => $descript,
+						//'event_location' => $local
 					));
 				}
 				else
 				{
 					$this->db->insert('event_calendar', array(
 						'event_date' => $date,
-						'event_name' => $name,
-						'event_description' => $descript,
-						'event_location' => $local
+						'event_name' => $name//,
+						//'event_description' => $descript,
+						//'event_location' => $local
 					));
 				}
 			}
