@@ -10,7 +10,7 @@
 				$this->conf = array
 					(
 						'show_next_prev' => true,
-						'next_prev_url' => base_url() . 'index.php/cmlacCal/display'
+						'next_prev_url' => base_url() . 'cmlacCal/display'
 					);
 				$this->conf['template'] = '
 					{table_open}<table class="calendar">{/table_open}
