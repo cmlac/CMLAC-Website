@@ -4,9 +4,7 @@
 		var $conf;
 		
 		function Calendar_model()
-			{
-				//parent::Model();
-				
+			{				
 				$this->conf = array
 					(
 						'show_next_prev' => true,
