@@ -172,3 +172,10 @@ pip-log.txt
 */logs/!index.html
 */cache/*
 */cache/!index.html
+
+#############
+## CodeLobster
+#############
+
+#CL Project File
+*.clpprj
