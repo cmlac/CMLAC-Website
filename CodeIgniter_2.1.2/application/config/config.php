@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/team/CMLAC-Website/CodeIgniter_2.1.2/';
+$config['base_url']	= 'http://localhost/team/CMLAC-Website/CodeIgniter_2.1.2';
 
 /*
 |--------------------------------------------------------------------------
@@ -224,7 +224,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'australia2012';
 
 /*
 |--------------------------------------------------------------------------
